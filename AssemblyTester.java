@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class AssemblyTester {
     
     public static void main(String[] args) throws FileNotFoundException{
-        File fileToRead = new File("AssemblyTest.txt");
+        File fileToRead = new File("AssemblyAdd.txt");
         String code = "";
         Scanner fileReader = new Scanner(fileToRead);
         while(fileReader.hasNextLine()){
